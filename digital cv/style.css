@@ -1,0 +1,1908 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p {
+    margin-top: 14px;
+}
+
+h1 {
+    color: #595959;
+}
+
+span {
+    color: #b3985d;
+}
+
+li::marker {
+    color: #bba981;
+}
+
+.ul {
+    margin-top: 10px;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.maindiv1 {
+    width: 30%;
+    height: auto;
+    padding: 20px 15px 0px 15px;
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+
+.subdiv-1 {
+    padding-top: 10px;
+    font-size: 43px;
+    text-align: center;
+}
+
+.subdiv-2 {
+    padding-top: 20px;
+}
+
+.information {
+    width: 95%;
+    /* padding: 10px; */
+}
+
+.name {
+    text-align: center;
+    font-size: 47px;
+}
+
+.info-1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#call {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #baa880;
+    color: #f1f3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+#email {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #baa880;
+    color: #f1f3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+#location {
+    width: 44px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #baa880;
+    color: #f1f3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+.language {
+    width: 95%;
+}
+
+.head-1,
+.head-2,
+.head-3,
+.head-4,
+.head-5,
+.head-6,
+.head-7,
+.head-8,
+.head-9,
+.head-10 {
+    color: #baa880;
+}
+
+.line {
+    width: 105%;
+    height: 2px;
+    background-color: black;
+}
+
+.line-2 {
+    width: 5px;
+    height: 100%;
+    background-color: #d0c09c;
+    color: #d0c09c;
+    position: absolute;
+    left: 30%;
+}
+
+.line-3 {
+    width: 105%;
+    height: 2px;
+    background-color: black;
+}
+
+.fa-circle {
+    font-size: 6px;
+}
+
+.hobbies {
+    width: 95%;
+}
+
+.visit {
+    width: 95%;
+}
+
+.activity {
+    width: 95%;
+}
+
+.activity-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 51%;
+    left: 52px;
+}
+
+.strength {
+    width: 95%;
+    margin-top: 40px;
+}
+
+.maindiv2 {
+    width: 70%;
+    height: 100%;
+    padding: 20px 15px 0px 15px;
+    position: relative;
+}
+
+.objective-1 {
+    width: 95%;
+}
+
+.education-1 {
+    width: 95%;
+    position: relative;
+}
+
+.cgpa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 46%;
+    left: 52px;
+}
+
+.li {
+    margin-top: 32px;
+}
+
+.pr {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 91%;
+    left: 52px;
+}
+
+/* .intern-1{
+    margin-top: 10px;
+} */
+
+.experience-1 {
+    width: 95%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.intern-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* position: absolute; */
+    top: 46%;
+    left: 52px;
+}
+
+.intern-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 80%;
+    left: 32px;
+}
+
+.skills-1 {
+    width: 95%;
+}
+
+.academic-project {
+    width: 95%;
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    top: 190%;
+}
+
+.acp-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 85%;
+    left: 52px;
+}
+
+.acp-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 105%;
+    left: 52px;
+}
+
+.acp-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 125%;
+    left: 52px;
+}
+
+.acp-4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 145%;
+    left: 52px;
+}
+
+.ap-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 200%;
+    left: 40px;
+}
+
+.ap-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 230%;
+    left: 40px;
+}
+
+.ap-3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 259%;
+    left: 40px;
+}
+
+.subap-1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    top: 282%;
+    left: 71px;
+}
+
+.subap-2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    top: 308%;
+    left: 71px;
+}
+
+.pa {
+    margin-top: 14px;
+}
+
+.pb {
+    margin-top: 14px;
+}
+
+.pc {
+    margin-top: 12px;
+}
+
+.other-project {
+    width: 95%;
+    margin-top: 12%;
+    position: relative;
+    top: 90px;
+}
+
+.op-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 83%;
+    left: 52px;
+}
+
+.op-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 107%;
+    left: 52px;
+}
+
+.op-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 131%;
+    left: 52px;
+}
+
+.op-4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 155%;
+    left: 52px;
+}
+
+.op-5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 179%;
+    left: 52px;
+}
+
+.dp {
+    margin-top: 33%;
+}
+
+.dp-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 240%;
+}
+
+.dp-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 282%;
+}
+
+.li-1 {
+    position: absolute;
+    top: 222%;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+@media (min-width: 1400px) {
+    #location {
+        width: 46px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -28px;
+    }
+
+    .info-1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 62%;
+        left: 52px;
+    }
+
+    .description {
+        position: absolute;
+        top: 196%;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 220%;
+        left: 40px;
+    }
+
+    .pa {
+        margin-top: 14px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 260%;
+        left: 40px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 292%;
+        left: 40px;
+    }
+
+    .pc {
+        margin-top: 15px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 332%;
+        left: 71px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 368%;
+        left: 71px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 176px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .name {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    #location {
+        width: 88px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -75px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 63%;
+        left: 52px;
+    }
+
+    .extra {
+        width: 103%;
+        height: 15%;
+        background-color: #f2f2f2;
+        position: absolute;
+        right: 0%;
+    }
+
+    .line-2 {
+        width: 5px;
+        height: 100%;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: 30%;
+    }
+
+    .description {
+        position: absolute;
+        top: 190%;
+    }
+
+    .acp-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 82%;
+        left: 52px;
+    }
+
+    .acp-2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 105%;
+        left: 52px;
+    }
+
+    .acp-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 128%;
+        left: 52px;
+    }
+
+    .acp-4 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 151%;
+        left: 52px;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 179%;
+        left: 40px;
+    }
+
+    .pa {
+        margin-top: 35px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 258%;
+        left: 40px;
+    }
+
+    .pb {
+        margin-top: 14px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 288%;
+        left: 40px;
+    }
+
+    .pc {
+        margin-top: 14px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 316%;
+        left: 71px;
+    }
+
+    #circle-1 {
+        margin-top: -26px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 372%;
+        left: 71px;
+    }
+
+    #circle-2 {
+        margin-top: -26px;
+    }
+
+
+    .other-project {
+        width: 95%;
+        position: absolute;
+        top: 140%;
+    }
+
+    .op-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 25%;
+        left: 52px;
+    }
+
+    .op-2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 32%;
+        left: 52px;
+    }
+
+    .op-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 39%;
+        left: 52px;
+    }
+
+    .op-4 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 46%;
+        left: 52px;
+    }
+
+    .op-5 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 53%;
+        left: 52px;
+    }
+
+    .li-1 {
+        position: absolute;
+        top: 66%;
+    }
+
+    .dp-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 70%;
+    }
+
+    .dp-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 80%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .maindiv1 {
+        width: 40%;
+        height: auto;
+        padding: 20px 10px 0px 10px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+
+    .line-2 {
+        width: 5px;
+        height: 100%;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: 36%;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 41px;
+    }
+
+    .info-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #location {
+        width: 88px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -75px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 63%;
+        left: 52px;
+    }
+
+    .strength {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 170%;
+        left: 40px;
+    }
+
+    .pa {
+        margin-top: 43px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 315%;
+        left: 40px;
+    }
+
+    .pb {
+        margin-top: -5px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 306%;
+        left: 40px;
+    }
+
+    .pc {
+        margin-top: 36px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 390%;
+        left: 71px;
+    }
+
+    #circle-1 {
+        position: relative;
+        top: -24px;
+    }
+
+    #circle-2 {
+        position: relative;
+        top: -24px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 472%;
+        left: 71px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 368px;
+    }
+
+    .fa-1 {
+        position: relative;
+        top: -10px;
+    }
+
+    .fa-2 {
+        position: relative;
+        top: -10px;
+    }
+
+    .dp-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 240%;
+    }
+
+    .dp-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 290%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .name {
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .maindiv1 {
+        width: 36%;
+        height: auto;
+        padding: 20px 10px 0px 10px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+
+    .line-2 {
+        width: 5px;
+        height: 100%;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: 34%;
+    }
+
+    #email {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5px;
+    }
+
+    .em {
+        position: absolute;
+        top: 123px;
+        left: 47px;
+
+    }
+
+    .info-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: -3px;
+    }
+
+    .info-2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: -3px;
+    }
+
+    .info-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #location {
+        width: 100px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -72px;
+        margin-left: -2px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 63%;
+        left: 52px;
+    }
+
+    .strength {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    .extra {
+        width: 103%;
+        height: 23%;
+        background-color: #f2f2f2;
+        position: absolute;
+        right: 0%;
+        margin-top: -4px;
+    }
+
+    .maindiv2 {
+        width: 70%;
+        height: 100%;
+        padding: 20px 15px 0px 15px;
+        position: relative;
+    }
+
+    .education-1 {
+        width: 95%;
+        position: relative;
+        top: -10px;
+    }
+
+    .experience-1 {
+        width: 95%;
+        margin-top: 25px;
+        position: relative;
+        top: -8px;
+    }
+
+    .academic-project {
+        width: 95%;
+        position: relative;
+        top: -3px;
+    }
+
+    .description {
+        position: absolute;
+        top: 200%;
+    }
+
+    .acp-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 80%;
+        left: 52px;
+    }
+
+    .acp-2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 105%;
+        left: 52px;
+    }
+
+    .acp-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 130%;
+        left: 52px;
+    }
+
+    .acp-4 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 155%;
+        left: 52px;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 166%;
+        left: 40px;
+    }
+
+    .pa {
+        margin-top: 60px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 330%;
+        left: 40px;
+    }
+
+    .pb {
+        margin-top: -8px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 314%;
+        left: 40px;
+    }
+
+    .pc {
+        margin-top: 36px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 396%;
+        left: 71px;
+    }
+
+    #circle-1 {
+        position: relative;
+        top: -24px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 478%;
+        left: 71px;
+    }
+
+    #circle-2 {
+        position: relative;
+        top: -24px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 368px;
+    }
+
+    .dp-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 236%;
+    }
+
+    .dp-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 266%;
+    }
+
+    .fa-2 {
+        position: relative;
+        top: -11px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 576px) {
+
+    span {
+        margin-left: 8px;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .maindiv1 {
+        width: 100%;
+        height: auto;
+        padding: 0px 1px 0px 1px;
+        position: relative;
+        background-color: #fff;
+    }
+
+    .information {
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 228px;
+        padding-top: 10px;
+    }
+
+    .info-1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #location {
+        width: 56px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -35px;
+    }
+
+    .subdiv-2 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .maindiv2 {
+        width: 100%;
+        height: 100%;
+        padding: 20px 10px 0px 10px;
+        position: relative;
+    }
+
+    .language {
+        width: 95%;
+        margin-top: 18px;
+        padding: 0px 5px;
+    }
+
+    .line-2 {
+        width: 130%;
+        height: 5px;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: -30%;
+        top: 228px;
+    }
+
+    .hobbies {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .visit {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 61%;
+        left: 52px;
+    }
+
+    .strength {
+        width: 95%;
+        margin-top: 20px;
+        padding: 0px 5px;
+    }
+
+    .skills-1 {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .objective-1 {
+        width: 95%;
+        margin-top: -35px;
+    }
+
+    .education-1 {
+        width: 95%;
+        position: relative;
+        top: -20px;
+    }
+
+    .experience-1 {
+        width: 95%;
+        margin-top: 25px;
+        position: relative;
+        top: -20px;
+    }
+
+    .academic-project {
+        width: 95%;
+        position: relative;
+        top: 5px;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 125%;
+        left: 30px;
+    }
+
+    .pa {
+        margin-top: 84px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 294%;
+        left: 30px;
+    }
+
+    .pb {
+        margin-top: 38px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 352%;
+        left: 30px;
+    }
+
+    .pc {
+        margin-top: 36px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 440%;
+        left: 65px;
+    }
+
+    #circle-1 {
+        margin-top: -48px;
+    }
+
+    #circle-2 {
+        margin-top: -48px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 550%;
+        left: 65px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 450px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    span {
+        margin-left: 8px;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .maindiv1 {
+        width: 100%;
+        height: auto;
+        padding: 0px 1px 0px 1px;
+        position: relative;
+        background-color: #fff;
+    }
+
+    .information {
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 228px;
+        padding-top: 10px;
+    }
+
+    .info-1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #location {
+        width: 56px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -35px;
+    }
+
+    .subdiv-2 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .maindiv2 {
+        width: 100%;
+        height: 100%;
+        padding: 20px 10px 0px 10px;
+        position: relative;
+    }
+
+    .language {
+        width: 95%;
+        margin-top: 18px;
+        padding: 0px 5px;
+    }
+
+    .line-2 {
+        width: 130%;
+        height: 5px;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: -30%;
+        top: 228px;
+    }
+
+    .hobbies {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .visit {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 62%;
+        left: 52px;
+    }
+
+    .strength {
+        width: 95%;
+        margin-top: 20px;
+        padding: 0px 5px;
+    }
+
+    .skills-1 {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .objective-1 {
+        width: 95%;
+        margin-top: -35px;
+    }
+
+    .education-1 {
+        width: 95%;
+        position: relative;
+        top: -20px;
+    }
+
+    .cgpa {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 56%;
+        left: 52px;
+    }
+
+    .pr {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 93%;
+        left: 52px;
+    }
+
+    .experience-1 {
+        width: 95%;
+        margin-top: 25px;
+        position: relative;
+        top: -20px;
+    }
+
+    .academic-project {
+        width: 95%;
+        position: relative;
+        top: 5px;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 125%;
+        left: 30px;
+    }
+
+    .pa {
+        margin-top: 84px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 330%;
+        left: 30px;
+    }
+
+    .pb {
+        margin-top: 35px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 392%;
+        left: 30px;
+    }
+
+    .pc {
+        margin-top: 36px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 480%;
+        left: 65px;
+    }
+
+    #circle-1 {
+        margin-top: -72px;
+    }
+
+    #circle-2 {
+        margin-top: -72px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 598%;
+        left: 65px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 504px;
+    }
+
+    .li-1 {
+        position: absolute;
+        top: 216%;
+    }
+
+    .dp-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 228%;
+    }
+
+    .dp-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 275%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    span {
+        margin-left: 8px;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .maindiv1 {
+        width: 100%;
+        height: auto;
+        padding: 0px 1px 0px 1px;
+        position: relative;
+        background-color: #fff;
+    }
+
+    .information {
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 228px;
+        padding-top: 10px;
+    }
+
+    .info-1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #location {
+        width: 56px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #baa880;
+        color: #f1f3f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -35px;
+    }
+
+    .subdiv-2 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .maindiv2 {
+        width: 100%;
+        height: 100%;
+        padding: 20px 10px 0px 10px;
+        position: relative;
+    }
+
+    .language {
+        width: 95%;
+        margin-top: 18px;
+        padding: 0px 5px;
+    }
+
+    .line-2 {
+        width: 130%;
+        height: 5px;
+        background-color: #d0c09c;
+        color: #d0c09c;
+        position: absolute;
+        left: -30%;
+        top: 228px;
+    }
+
+    .hobbies {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .visit {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .activity-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 61%;
+        left: 52px;
+    }
+
+    .strength {
+        width: 95%;
+        margin-top: 52px;
+        padding: 0px 5px;
+    }
+
+    .skills-1 {
+        width: 95%;
+        margin-top: -15px;
+        padding: 0px 5px;
+    }
+
+    .objective-1 {
+        width: 95%;
+        margin-top: -35px;
+    }
+
+    .education-1 {
+        width: 95%;
+        position: relative;
+        top: -20px;
+    }
+
+    .cgpa {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 56%;
+        left: 52px;
+    }
+
+    .pr {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 93%;
+        left: 52px;
+    }
+
+    .experience-1 {
+        width: 95%;
+        margin-top: 25px;
+        position: relative;
+        top: -20px;
+    }
+
+    .academic-project {
+        width: 95%;
+        position: relative;
+        top: 5px;
+    }
+
+    .description {
+        position: absolute;
+        top: 179%;
+    }
+
+    .ap-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 125%;
+        left: 30px;
+    }
+
+    .pa {
+        margin-top: 84px;
+    }
+
+    .ap-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 310%;
+        left: 30px;
+    }
+
+    .pb {
+        margin-top: 35px;
+    }
+
+    .ap-3 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 360%;
+        left: 30px;
+    }
+
+    .pc {
+        margin-top: 36px;
+    }
+
+    .subap-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 452%;
+        left: 65px;
+    }
+
+    #circle-1 {
+        margin-top: -93px;
+    }
+
+    #circle-2 {
+        margin-top: -69px;
+    }
+
+    .subap-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 10px;
+        top: 564%;
+        left: 65px;
+    }
+
+    .other-project {
+        width: 95%;
+        margin-top: 12%;
+        position: relative;
+        top: 588px;
+    }
+
+    .li-1 {
+        position: absolute;
+        top: 216%;
+    }
+
+    .dp-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 228%;
+    }
+
+    .dp-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 275%;
+    }
+}
